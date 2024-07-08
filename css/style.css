@@ -1,0 +1,111 @@
+body 
+{    
+    background-color: #005485;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav_bar 
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container 
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+
+}
+.col-8 {}
+.col-4 {}
+.nav_logo 
+{
+    background: url(../image/2.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+}
+.col-9 {}
+.nav_text 
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 30px;
+}
+.img_size {}
+.title_photo 
+{
+    text-align: left;
+    font-size: 20px;
+}
+.my_photo
+{
+    background: url(../image/1.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 315px;
+    height: 512px;
+}
+.button_js{
+    text-align: center;
+}
+#myButton{
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(158, 210, 240);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#demo img{
+    margin-top: 20px;
+    width: 25%;
+}
+.col-12{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    
+}
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Центрирование для .row */
+}
+
+.col-12 {
+    flex: 0 0 100%; /* Flex-базис 100% для .col-12 */
+}
+
+.form_reg {
+    margin-bottom: 15px; /* Отступ снизу для каждого поля формы */
+}
+
+.form {
+    width: 90%; /* Ширина полей ввода */
+    padding: 10px; /* Внутренний отступ для полей ввода */
+    margin: 0 auto; /* Автоматические отступы для центрирования */
+    display: block; /* Блочное отображение для полей ввода */
+}
+
+.btn_red {
+    background-color: #ff4036; /* Красный фон для кнопки */
+    color: white; /* Белый текст для кнопки */
+    border: none; /* Убрать границу у кнопки */
+    padding: 10px 20px; /* Внутренний отступ для кнопки */
+    cursor: pointer; /* Курсор в виде указателя */
+}
+.btn_reg {
+    width: auto; /* Автоматическая ширина для кнопки */
+    margin-top: 20px; /* Отступ сверху для кнопки */
+}
